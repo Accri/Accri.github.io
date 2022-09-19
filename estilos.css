@@ -1,0 +1,243 @@
+* {text-indent:0px ; margin:0px ; padding:0px ; border:0px}
+p {text-align: justify}
+body {width: 100%; background-repeat:no-repeat ;text-align: center;border: black 0px solid;}
+
+.fondo{
+    background: url(PVImagenes/fondonaranja.jpg);
+    position: relative;
+}
+
+.encabezado{
+    display:flex;
+    width: 100%;
+    height: 60%;
+    border: black 0px solid;
+    color:none; 
+}
+
+.cuerpo{
+    border: pink 0px solid;
+    border-top: orange 0px solid;
+    background: url(PVImagenes/fondonaranja2.jpg);
+}
+
+.PVlogo{
+	width: 60%;
+    height: auto;
+	margin-Top: 2%;
+    border: yellow 0px solid;
+}
+
+.PVlogo img {
+    margin: auto;
+    width:70%;
+    height:100%;
+    margin-left: 6%;
+    border: brown 0px solid;
+}
+
+.ASlogo{
+	width: 40%;	
+    height: auto;
+	right: 10%;
+	margin-top: 2%;
+    border: cyan 0px solid;
+}
+
+.ASlogo img {
+    margin-left: 6%;
+    float: left;
+    position: left;
+    width: auto;
+    height:100%;
+    border: green 0px solid;
+}
+
+
+
+.luz.on{
+  color: blue;/*color del texto al cambiar*/
+  text-shadow:
+    1px  1px rgba(255, 255, 255, .1),
+    -1px -1px rgba(0, 0, 0, .88),
+    0px  0px 0px black;/*color de la luz del texto*/
+}
+
+.luz{
+  font-size:150%;/*tamaño de la fuente*/
+  color: black;
+  text-shadow:
+    1px  1px rgba(255, 255, 255, .1),
+    -1px -1px rgba(0, 0, 0, .88),
+}
+
+.fotos {
+    width: 95%;
+    margin: auto;
+}  
+
+.fotos tr{
+    border: green 0px solid;
+}
+
+
+
+.fotos img{
+  width: 100%;
+  height: auto%;
+}
+
+.slider{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    background-color: darkgray;
+}
+
+
+
+.slider ul{
+	display: flex;
+	padding: 0;
+	width: 500%;
+    border: green 0px solid;
+    animation: cambio 20s infinite;
+    animation-timing-function: step-start;
+}
+
+.slider li{
+    width:100%;
+    list-style: none;
+}
+
+.slider img{
+    padding: 0;
+    width: 40%;
+}
+
+
+
+@keyframes cambio {
+
+    0% {margin-left: 0;}
+    0% {margin-left: 0;}    
+
+    1% {margin-left: -100%;}
+    10% {margin-left: -100%;}    
+
+    11% {margin-left: -200%;}
+    20% {margin-left: -200%;}    
+
+    21% {margin-left: -300%;}
+    30% {margin-left: -300%;}    
+
+    31% {margin-left: -400%;}
+    40% {margin-left: -400%;}
+
+}
+
+
+
+#Piedepagina{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    background-image: url(PVImagenes/fondopie.jpg);
+}
+
+.face{
+    position: absolute; 
+    width: 4%;
+    margin-left: 8%;
+    margin-top: 1%;
+    padding: 0;
+    border: brown 0px solid;
+}
+
+
+
+.insta{
+    position: absolute;
+    width: 4%;
+    margin-left: 14%;
+    margin-top: 1%;
+    padding: 0;
+    border: cyan 0px solid;
+}
+
+.carta{
+    position: absolute;
+    width: 4%;
+    margin-left: 20%;
+    margin-top: 1%;
+    padding: 0;
+    border: cyan 0px solid;
+}
+
+
+.wass{
+    width: 20%;
+    margin-left: 5%;
+    margin-top: 0%;
+    padding: 0;
+    border: yellow 0px solid;
+}
+
+.pieLetra{
+    margin-top: -13%;
+    width: 65%;
+    float: right;
+    margin-right: 5%;
+    border: green 0px solid;
+}
+
+.pieLetra img {
+    width: 100%;
+    border: red 0px solid;
+}
+
+
+
+.face img{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    border: purple 0px solid;
+}
+
+
+
+.insta img{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto; 
+    border: grey 0px solid;
+}
+
+.carta img{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto; 
+    border: grey 0px solid;
+}
+
+.wass img{ 
+    padding-top: 30%;
+    padding-bottom: 7%;
+    width: 100%;
+    border: black 0px solid;
+}
+
+
+#logan {display: block; border: position: absolute; background: none;padding:2%; margin:auto; text-align: center; border:blue 0px solid; width:80%; height:auto ; font-size: 25px; background-color: none; line-height: 40px }
+
+#logan p {text-align: center};
+
+
+
